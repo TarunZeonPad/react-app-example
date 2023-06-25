@@ -6,7 +6,7 @@ function Versiondata()
     const [versionData, setVersionData]= useState([]); 
     useEffect( ()=>{
         const getVersionData= async()=>{
-            const reqData= await fetch("http://localhost:5000/api/user");
+            const reqData= await fetch("http://13.48.43.79:5000/api/user");
             const resData= await reqData.json();
             setVersionData(resData);
            // console.log(resData);

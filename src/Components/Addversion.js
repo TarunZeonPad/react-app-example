@@ -14,7 +14,7 @@ function Adduser()
        e.preventDefault();
        const allInputvalue= { versionName: formValue.versionName, email:formValue.email, description:formValue.description, status:formValue.status}; 
 
-      let res= await fetch("http://localhost:5000/api/addversion",{
+      let res= await fetch("http://13.48.43.79:5000/api/addversion",{
         method:"POST",
         headers:{'content-type':'application/json'},
         body:JSON.stringify(allInputvalue)
