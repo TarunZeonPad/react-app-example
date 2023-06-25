@@ -50,7 +50,7 @@ function Adduser()
                             </div>
                             <div className="col-md-6">
                                 <div className="mb-3">
-                                    <label className="form-lable">User Email</label>
+                                    <label className="form-lable">User Id</label>
                                     <input type="text" name="email" className="form-control" value={formValue.email} onChange={ handleInput}/>
                                 </div>
                             </div>

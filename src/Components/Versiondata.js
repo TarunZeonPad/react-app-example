@@ -28,7 +28,7 @@ function Versiondata()
                         <tr>
                         <th>Sr. No</th>
                         <th>Version</th>
-                        <th>Email</th>
+                        <th>User Id</th>
                         <th>Description</th>
                         <th>Status</th>
                         </tr>
