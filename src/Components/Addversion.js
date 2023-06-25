@@ -16,8 +16,9 @@ function Adduser()
 
       let res= await fetch("http://13.48.43.79:5000/api/addversion",{
         method:"POST",
-        headers:{'content-type':'application/json'},
-        body:JSON.stringify(allInputvalue)
+        headers:{'content-type':'application/json','Access-Control-Allow-Credentials':'*'},
+        body:JSON.stringify(allInputvalue),
+        mode: 'cors'
       });
       let resjson= await res.json();
       if(res.status===200)
